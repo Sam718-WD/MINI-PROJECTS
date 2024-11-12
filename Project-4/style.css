@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    position: relative;
+    overflow: hidden;
+}
+
+.page{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: #54514c; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+}
