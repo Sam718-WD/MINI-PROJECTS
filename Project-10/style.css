@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+#cursor {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease, top 0.1s ease, left 0.1s ease;
+    z-index: 10000;
+  }
+  
+h1{
+    font-size: 9vw;
+    font-weight: 900;
+}
+
+.page1{
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.page2{
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.page3{
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.page4{
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
